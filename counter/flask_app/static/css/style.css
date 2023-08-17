@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 30pt;
+}
+
+p {
+    margin: 20px;
+    font-size: 20pt;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 125px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+    font-size: 16pt;
+}
+
+#green {
+    background-color: green;
+    color: white;
+}
+
+#red {
+    background-color: red;
+    color: white;
+}
+
+.user_add {
+    font-size: 16pt;
+    margin: 10px;
+}
+
+#input_box {
+    width: 75px;
+}
+
+#submit {
+    width: 75px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 12pt;
+    background-color: dodgerblue;
+    color: white;
+}
