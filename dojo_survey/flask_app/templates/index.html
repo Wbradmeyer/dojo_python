@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+    <title>Dojo Survey</title>
+</head>
+<body>
+    <h1>Dojo Survey</h1>
+    <form action="/process" method="post">
+        <label>Name:</label>
+            <input type="text" name="name">
+        
+        <label for="location">Dojo Location:</label>
+            <select name="location" id="location">
+                <option value="" disabled selected>-- Select a Location --</option>
+                <option value="Chicago">Chicago</option>
+                <option value="Seattle">Seattle</option>
+                <option value="Online">Online</option>
+                <option value="Burbank">Burbank</option>
+                <option value="Bellevue">Bellevue</option>
+            </select>
+
+        <label for="language">Favorite Language:</label>
+            <select name="language" id="language">
+                <option value="" disabled selected>-- Select a Language --</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="Javascript">Javascript</option>
+                <option value="Python">Python</option>
+                <option value="C#">C#</option>
+            </select>
+
+        <p class="selects">
+            <label>Platform: </label>
+            <input class="choose" type="radio" name="platform" id="windows" value="Windows" checked>
+            <label for="windows">Windows</label>
+            <input class="choose" type="radio" name="platform" id="mac" value="Mac">
+            <label for="mac">Mac</label>
+            <input class="choose" type="radio" name="platform" id="linux" value="Linux">
+            <label for="linux">Linux</label>
+        </p>
+
+        <p class="selects">
+            <label>Stacks: </label>
+            <input class="choose" type="checkbox" name="stack" id="stack1" value="Programming Basics">
+            <label for="stack1">Programming Basics</label>
+            <input class="choose" type="checkbox" name="stack" id="stack2" value="Web Fundamentals">
+            <label for="stack2">Web Fundamentals</label>
+            <input class="choose" type="checkbox" name="stack" id="stack3" value="Python">
+            <label for="stack3">Python</label>
+            <input class="choose" type="checkbox" name="stack" id="stack4" value="MERN">
+            <label for="stack4">MERN</label>
+            <input class="choose" type="checkbox" name="stack" id="stack5" value="Java">
+            <label for="stack5">Java</label>
+        </p>
+
+        <label>Comment:</label>
+            <textarea name="comment" id="comment" rows="5" cols="40"></textarea>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+</body>
+</html>

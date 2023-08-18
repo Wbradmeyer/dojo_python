@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+    <title>Survey Result</title>
+</head>
+<body>
+    <h2>Submitted Info:</h2>
+    <div>
+        <p>Name: {{ session.name }}</p>
+        <p>Dojo Location: {{ session.location }}</p>
+        <p>Favorite Language: {{ session.language }}</p>
+        <p>Platform: {{ session.platform }}</p>
+        <p id="stack_list">Stack(s):</p>
+        <ul>
+            {% for stack in session.stack %}
+                <li>{{ stack }}</li>
+            {% endfor %}
+        </ul>
+        <p>Comment: {{ session.comment }}</p>
+    </div>
+    <a href="/">Home</a>
+</body>
+</html>
