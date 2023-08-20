@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: gray;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 30pt;
+}
+
+h4 {
+    font-size: 20pt;
+}
+
+p {
+    margin: 20px;
+    font-size: 20pt;
+}
+/* 
+div {
+    display: flex;
+    justify-content: center;
+} */
+
+button {
+    width: 125px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+    font-size: 16pt;
+}
+
+#input_box {
+    height: 25px;
+    width: 75px;
+}
+
+#submit {
+    width: 75px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 12pt;
+    background-color: dodgerblue;
+    color: white;
+}
+
+#feedback {
+    margin: auto;
+    width: 175px;
+    height: 125px;
+    color: gold;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#retry {
+    color: white;
+    font-size: 14pt;
+}
