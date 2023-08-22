@@ -1,0 +1,40 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+body {
+    max-width: 800px;
+    padding: 40px;
+}
+
+table {
+    margin-bottom: 20px;
+}
+
+#top_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form {
+    display: block;
+    text-align: left;
+}
+
+.form-control {
+    width: 400px
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+#profile_card {
+    width: 400px;
+    border: 2px solid black;
+    padding: 20px;
+}
