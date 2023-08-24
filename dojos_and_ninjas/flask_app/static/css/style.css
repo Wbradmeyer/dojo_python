@@ -1,0 +1,51 @@
+html {
+    background-color: grey;
+}
+
+.container {
+    width: 760px;
+    margin: auto;
+    padding: 40px;
+    background-color: rgb(40, 53, 53);
+    border: solid black 2px;
+    color: rgb(118, 242, 244);
+    font-size: 18pt;
+}
+
+h1, h2 {
+    color: gold;
+    font-size: 26pt;
+}
+
+#home_page {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+}
+
+#box_left, #box_right {
+    width: 250px;
+}
+
+#ninja_form, #edit_form {
+    padding-left: 205px;
+}
+
+.form-control, .form-select {
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link-danger {
+    text-decoration: underline;
+    display: block;
+}
