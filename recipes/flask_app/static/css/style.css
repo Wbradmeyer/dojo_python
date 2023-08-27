@@ -1,0 +1,122 @@
+* {
+    margin: auto 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    margin: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#reg_box, #login_box {
+    align-items: flex-start;
+    background-color: slategray;
+    padding: 50px;
+    width: 400px;
+    margin: 25px;
+    color: white;
+}
+
+#reg_box > h2 {
+    color: lawngreen;
+}
+
+#login_box > h2 {
+    color: cyan;
+}
+
+.form-control {
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+#confirm {
+    margin-top: 15px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+#popup {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 15pt;
+    background-color: indianred;
+    color: white;
+    padding: 20px;
+}
+
+.wrapper {
+    margin: auto;
+    width: 960px;
+    background-color: slategray;
+    color: white;
+    padding: 30px;
+}
+
+.link {
+    text-align: center;
+}
+
+.link > a {
+    margin: 0 5px;
+    font-size: 12pt;
+}
+
+.create > .wrapper {
+    width: 800px;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22pt;
+    align-items: center;
+    padding: 15px 25px 0px 0px;
+}
+
+.nav_bar > h1 {
+    margin-right: 150px;
+}
+
+.create > .wrapper > .nav_bar > h1 {
+    margin-right: 50px;
+}
+
+a {
+    font-size: 16pt;
+}
+
+.nav_bar > .btn {
+    margin-top: 30px;
+}
+
+.date_cooked, .radio-inline {
+    margin-bottom: 15px;
+}
+
+#recipe_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 20pt;
+}
+
+#recipe_title > h2 {
+    margin-left: 50px;
+}
+
+#recipe_title > p {
+    margin-right: 250px;
+}
+
+#recipe_card {
+    border: 2px solid black;
+    padding: 30px;
+}
