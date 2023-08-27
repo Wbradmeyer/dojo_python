@@ -1,0 +1,102 @@
+* {
+    margin: auto 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    margin: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#reg_box, #login_box {
+    align-items: flex-start;
+    background-color: slategray;
+    padding: 50px;
+    width: 400px;
+    margin: 25px;
+    color: white;
+}
+
+#reg_box > h2 {
+    color: lawngreen;
+}
+
+#login_box > h2 {
+    color: cyan;
+}
+
+.form-control {
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+#confirm {
+    margin-top: 15px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+#popup {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 15pt;
+    background-color: indianred;
+    color: white;
+    padding: 20px;
+}
+
+#wrapper {
+    margin: auto;
+    width: 960px;
+    display: block;
+    background-color: slategray;
+    color: white;
+}
+
+#nav_bar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22pt;
+    align-items: baseline;
+    padding: 15px 25px 0px 0px;
+}
+
+#nav_bar > h1 {
+    margin-right: 150px;
+}
+
+#post_create {
+    padding: 15px 40px;
+    font-size: 18pt;
+    border-top: 1px black solid;
+}
+
+#display_posts {
+    border-top: 1px solid black;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+.post {
+    padding: 20px;
+    font-size: 16pt;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.post > p {
+    display: inline;
+}
+
+.post > a {
+    text-align: right;
+}
