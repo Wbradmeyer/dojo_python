@@ -1,0 +1,79 @@
+* {
+    margin: auto 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    margin: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#reg_box, #login_box {
+    align-items: flex-start;
+    background-color: slategray;
+    padding: 50px;
+    width: 400px;
+    margin: 25px;
+    color: white;
+}
+
+#reg_box {
+    flex: 2;
+    display: flex;
+}
+
+#login_box {
+    flex: 1;
+}
+
+.boxes_reg > h2 {
+    color: lawngreen;
+}
+
+#login_box > h2 {
+    color: cyan;
+}
+
+.form-control {
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+#confirm {
+    margin-top: 15px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+#popup {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 15pt;
+    background-color: indianred;
+    color: white;
+    padding: 20px;
+}
+
+#success_page {
+    margin: auto;
+    width: 500px;
+    background-color: lightskyblue;
+    border: 2px solid gray;
+    padding: 35px;
+    text-align: center;
+}
+
+#success_page > h1 {
+    margin: 25px;
+}
+
+#success_page > h2 {
+    margin: 15px;
+}
